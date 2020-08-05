@@ -1,0 +1,94 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+html {
+    font-size: 62.5%
+}
+body {
+    line-height: 2;
+    font-size:1.5rem;
+    font-family: 'Roboto Mono', monospace;
+}
+nav {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav a:hover {
+    color:white;
+}
+.links {
+    text-align:center;
+    margin: 0 auto;
+    width:100%; 
+    height:50px;
+}
+.plan {
+    background-color: #FF764E;
+    display:inline-block;
+    border-radius:5px;
+}
+.learn {
+    background-color:#5ED3EB;
+    display:inline-block;
+    border-radius:5px;
+    margin: 0 auto;
+}
+.get {
+    background-color:#FFCD69;
+    display:inline-block;
+    border-radius:5px;
+}
+#header .header_img{
+    width:25%;
+    display:inline-block;
+    margin: 5%;
+}
+#header .header_img img{
+    display:inline-block;
+    margin:0 auto;
+    height:auto;
+    overflow:hidden;
+    border-radius:50%;
+}
+#header .header{
+    width:52%;
+    display:inline-block;
+    height:60%;
+    margin-left:5%;
+  
+}
+#header {
+    height: 100%;
+}
+#header p {
+    text-align:center;
+    line-height:2rem;
+}
+.header {
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    text-align:center;
+    font-size:4rem;
+    
+}
+#main_content {
+    text-align:center;
+    margin: 0;
+    padding:0;
+    display:block;
+    position:fixed;
+    width:100%;
+}
+#main_content p {
+    background-color:#DDB9A3;
+    line-height:1.3em;
+    color:white;
+
+}

@@ -25,23 +25,27 @@ nav a:hover {
     text-align:center;
     margin: 0 auto;
     width:100%; 
-    height:50px;
+    height:100px;
+    padding: 2em;
 }
 .plan {
     background-color: #FF764E;
     display:inline-block;
     border-radius:5px;
+    margin:5%;
 }
 .learn {
     background-color:#5ED3EB;
     display:inline-block;
     border-radius:5px;
-    margin: 0 auto;
+    margin:5%;
+
 }
 .get {
     background-color:#FFCD69;
     display:inline-block;
     border-radius:5px;
+    margin:5%;
 }
 #header .header_img{
     width:25%;
@@ -54,6 +58,7 @@ nav a:hover {
     height:auto;
     overflow:hidden;
     border-radius:50%;
+    padding-top:20px;
 }
 #header .header{
     width:52%;
@@ -83,7 +88,6 @@ h1 {
     margin: 0;
     padding:0;
     display:block;
-    position:fixed;
     width:100%;
 }
 #main_content p {
@@ -103,4 +107,11 @@ h1 {
 .more_content p {
     margin-left: 33%;
     margin-right: 33%;
+}
+.footer_img img {
+    width:100%;
+    height:20vh;
+}
+p {
+    margin-bottom:2%;
 }
